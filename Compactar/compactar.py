@@ -15,7 +15,7 @@ def compactar(arquivo_entrada, arquivo_saida):
     quantidade_bits = 0
     quantidade_nucleotideos = 0
 
-    for nucleotideo in dados:
+    for nucleotideo in dados: 
 
         if nucleotideo not in codigos:
             continue
